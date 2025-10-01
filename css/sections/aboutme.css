@@ -1,0 +1,92 @@
+.aboutMe__container{
+    width: 80%;
+    padding: 3rem;
+    margin-top: 40px;
+    margin-left: 185px;
+    margin: 50px auto;
+    padding: 3rem;
+    background-color: #e0e5ec;
+    border-radius: 3rem;
+     box-shadow: 10px 10px 20px #b8b9be, -10px -10px 20px #ffffff
+}
+.aboutMe__container:hover{
+    transition: 2s;
+     box-shadow: inset 5px 5px 10px #b8b9be, 
+                inset -5px -5px 10px #ffffff;
+}
+
+.aboutME__content_container{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e5ec;
+    border-radius: 20px;
+    padding: 2rem 0;
+     box-shadow: inset 5px 5px 10px #b8b9be, 
+                inset -5px -5px 10px #ffffff;
+     & h1 {
+        color: var(--p-600);
+    }
+
+    & p {
+        color: var(--n-600);
+        padding: 0 1rem;
+        font-size: larger;
+    }
+    & .section__title {
+	font-size: var(--h1-font-size);
+	line-height: var(--h1-line-height);
+	font-weight: bold;
+	color: var(--p-600);
+	text-transform: capitalize;
+}
+.aboutME__content_container:hover{
+    transition: 2ms;
+    box-shadow: 10px 10px 20px #b8b9be, -10px -10px 20px #ffffff
+}
+    
+}
+.CTA{
+    display: flex;
+    flex: 1;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    & a{
+        color: var(--p-600);
+    }
+    & #taicv{
+        box-shadow: 10px 10px 20px #b8b9be, 
+                -10px -10px 20px #ffffff;
+        padding: 12px 12px;
+        width: 120px;    
+        text-align: center;
+        cursor: pointer;    
+        max-width: 80%;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    & #taicv:hover{
+        box-shadow: inset 5px 5px 10px #b8b9be, inset -5px -5px 10px #ffffff;
+    }
+    & #xemduan:hover{
+        box-shadow: inset 5px 5px 10px #b8b9be, inset -5px -5px 10px #ffffff;
+    }
+     & #xemduan{
+        box-shadow: 10px 10px 20px #b8b9be, 
+                -10px -10px 20px #ffffff;
+        padding: 12px 12px;
+        width: 120px;    
+        text-align: center;
+        cursor: pointer;    
+        max-width: 80%;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+}
