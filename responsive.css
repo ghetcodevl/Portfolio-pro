@@ -9,6 +9,15 @@
     .container {
         max-width: 1440px;
     }
+    .aboutMe__content_container{
+        width: 90%;
+    }
+    .aboutMe__container{
+        width: 93%;
+    }
+    .skills__section{
+        width: 93%;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -27,8 +36,7 @@
     }
     .skills__section{
         width: 70%;
-    }
-
+    }   
 }
 
 /* *=====================
@@ -63,7 +71,7 @@
             max-width: 320px;
         }
     }
-
+    
     .header__column--right {
         text-align: center;
         align-items: center;
